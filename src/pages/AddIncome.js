@@ -33,7 +33,7 @@ function Addincome() {
           >
             <div className="flex flex-col h-full">
               <div className="h-1/2 bg-white rounded-lg shadow-md p-4 ">
-                <h1 className="text-xl font-semibold mb-4 text-center ">
+                <h1 className="text-2xl font-semibold mb-4 text-center ">
                   Income Details August
                 </h1>
                 <div className="flex flex-col md:flex-row gap-2">
