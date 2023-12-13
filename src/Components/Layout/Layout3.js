@@ -2,11 +2,7 @@ import { useState } from "react";
 
 import Navbar4 from "../Navbar/Navbar";
 import { Sidebar3 } from "../Sidebar/Sidebar3";
-import Dashboard1 from "../TailWindDashboar/Dashboard1";
-import Dashboard3 from "../TailWindDashboar/Dashboard3";
-import Dashboard4 from "../TailWindDashboar/Dashboard4";
-import Dashboard5 from "../TailWindDashboar/Dashboard5";
-import Dashboard6 from "../TailWindDashboar/Dashboard6";
+
 
  const Layout3 = ({ children }) => {
   const [open, setOpen] = useState(false);
@@ -42,11 +38,7 @@ import Dashboard6 from "../TailWindDashboar/Dashboard6";
         </main>
    
       </div>
-      <Dashboard1/>
-      <Dashboard3/>
-      <Dashboard4/>
-      <Dashboard5/>
-      <Dashboard6/>
+
     </>
   );
 };

@@ -4,8 +4,6 @@ import "./styles.css";
 import { MoneyProvider } from "./MoneyContext";
 
 import "./tailwind.output.css";
-import Dashboard1 from "./Components/TailWindDashboar/Dashboard1";
-import Dashboard2 from "./Components/TailWindDashboar/Dashboard2";
 export default function App() {
   return (
     <MoneyProvider>
@@ -19,8 +17,6 @@ export default function App() {
           {/* <ExpenseForm /> */}
           {/* <LoginForm/> */}
           {/* <RegistrationForm /> */}
-          {/* <Dashboard1/>
-          <Dashboard2/> */}
         </div>
       </SnackbarProvider>
     </MoneyProvider>

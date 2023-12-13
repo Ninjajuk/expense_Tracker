@@ -25,7 +25,7 @@ const navigation = [
   { name: 'Profile', href: '#', icon: UserIcon },
 ]
 
-export default function Example() {
+export default function Dashboard7() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (

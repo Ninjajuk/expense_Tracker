@@ -21,6 +21,13 @@ import TransactionsPage from "../pages/TransactiosPage";
 import CardsPage from "../pages/BankCard";
 import BarChart1 from "../Components/Chart/Chart1";
 import StockLayout from "../pages/Stocklayout";
+import Dashboard1 from "../Components/TailWindDashboar/Dashboard1";
+import Dashboard2 from "../Components/TailWindDashboar/Dashboard2";
+import Dashboard3 from "../Components/TailWindDashboar/Dashboard3";
+import Dashboard4 from "../Components/TailWindDashboar/Dashboard4";
+import Dashboard5 from "../Components/TailWindDashboar/Dashboard5";
+import Dashboard6 from "../Components/TailWindDashboar/Dashboard6";
+import Dashboard7 from "../Components/TailWindDashboar/Dashboard7";
 
 const router = createBrowserRouter([
   {
@@ -94,6 +101,34 @@ const router = createBrowserRouter([
   {
     path: "/stcoklayout",
     element: <StockLayout />
+  },
+  {
+    path: "/dashboard1",
+    element: <Dashboard1/>
+  },
+  {
+    path: "/dashboard2",
+    element: <Dashboard2/>
+  },
+  {
+    path: "/dashboard3",
+    element: <Dashboard3/>
+  },
+  {
+    path: "/dashboard4",
+    element: <Dashboard4/>
+  },
+  {
+    path: "/dashboard5",
+    element: <Dashboard5/>
+  },
+  {
+    path: "/dashboard6",
+    element: <Dashboard6/>
+  },
+  {
+    path: "/dashboard7",
+    element: <Dashboard7/>
   }
 ]);
 export default router;
