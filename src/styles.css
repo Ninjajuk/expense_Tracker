@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding: 0;
+  /* overflow: hidden; */
+}
+
+/* Custom CSS to hide the scrollbar */
+.hide-scrollbar::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+.hide-scrollbar::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.hide-scrollbar::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+.glass-bg {
+  background-color: rgba(
+    36,
+    135,
+    192,
+    0.875
+  ); /* Silver or gray with transparency */
+  backdrop-filter: blur(10px); /* Adjust the blur radius for the glass effect */
+}
+
+simplebar-track.simplebar-vertical .simplebar-scrollbar:before {
+  /* @apply bg-slate-400/50 w-1.5; */
+  background-color: rgb(148 163 184 / 0.5);
+  width: 0.375rem /* 6px */;
+}
