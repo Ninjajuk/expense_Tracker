@@ -1,7 +1,4 @@
 import React, { useState } from "react";
-
-
-
 import IncomeTable from "../Components/Table/IncomeTable";
 import { IncomeDetail } from "../Components/IncomeDetails";
 import AddIncomeForm from "../Components/Form/AddincomeForm";
@@ -73,7 +70,6 @@ function Addincome() {
                   </div>
                 </div>
                 <div className="h-1/2 pt-4" style={{ height: "400px" }}>
-                  {" "}
                   <IncomeTable />
                 </div>
               </div>
